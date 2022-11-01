@@ -21,54 +21,27 @@
         </div>
 
         <div class="from-group">
-          <label for="authorTextField">Author</label>
+          <label for="authorTextField">Number</label>
           <input
             type="text"
             class="form-control"
             id="authorTextField"
-            placeholder="Enter the Contact's Author:"
-            name="author"
-            value="<%= contact.author %>"
+            placeholder="Enter the Contact's Number:"
+            name="number"
+            value="<%= contact.number %>"
             required
           />
         </div>
 
         <div class="from-group">
-          <label for="publishedTextField">Year</label>
+          <label for="publishedTextField">email</label>
           <input
             type="text"
             class="form-control"
             id="publishedTextField"
             placeholder="Enter the Year of Publication:"
             name="published"
-            value="<%= contact.published %>"
-            required
-          />
-        </div>
-
-        <div class="from-group">
-          <label for="descTextField">Description</label>
-          <textarea
-            type="text"
-            class="form-control"
-            id="descTextField"
-            placeholder="Enter the Description of Contact:"
-            name="description"
-            required
-          >
-  <%=contact.description%></textarea
-          >
-        </div>
-
-        <div class="from-group">
-          <label for="priceTextField">Price</label>
-          <input
-            type="number"
-            class="form-control"
-            id="pricecTextField"
-            placeholder="Enter the Price of Contact:"
-            name="price"
-            value="<%= contact.price %>"
+            value="<%= contact.email %>"
             required
           />
         </div>
